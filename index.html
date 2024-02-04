@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <title>Tailwind & Alpine Sandbox</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    </head>
+    <body class="bg-cyan-950">
+        <header class="container mx-auto py-12 px-4">
+            <div class="text-white">
+                <ul class="flex text-2xl flex-wrap items-center justify-center gap-3">
+                    <li>
+                        <a
+                            class="hover:bg-cyan-900 px-3 py-2 rounded-md duration-200 flex flex-col items-center justify-center"
+                            href="/"
+                            ><i class="fa-solid fa-house"></i>
+                            <p class="text-sm font-thin mt-1 hidden md:flex">Home</p></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="hover:bg-cyan-900 px-3 py-2 rounded-md duration-200 flex flex-col items-center justify-center"
+                            href="https://www.github.com/dscorzoni"
+                            ><i class="fa-brands fa-github"></i>
+                            <p class="text-sm font-thin mt-1 hidden md:flex">Github</p></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="hover:bg-cyan-900 px-3 py-2 rounded-md duration-200 flex flex-col items-center justify-center"
+                            href="https://www.frontendmentor.io/profile/dscorzoni"
+                            ><i class="fa-solid fa-code"></i>
+                            <p class="text-sm font-thin mt-1 hidden md:flex">Frontend Mentor</p></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="hover:bg-cyan-900 px-3 py-2 rounded-md duration-200 flex flex-col items-center justify-center"
+                            href="https://www.linkedin.com/in/dscorzoni"
+                            ><i class="fa-brands fa-linkedin-in"></i>
+                            <p class="text-sm font-thin mt-1 hidden md:flex">LinkedIn</p></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="hover:bg-cyan-900 px-3 py-2 rounded-md duration-200 flex flex-col items-center justify-center"
+                            href="mailto:danilo.scorzoni@gmail.com"
+                            ><i class="fa-solid fa-envelope"></i>
+                            <p class="text-sm font-thin mt-1 hidden md:flex">Contact</p></a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="flex flex-col justify-center items-center">
+            <section
+                class="w-full text-white text-center bg-cyan-900 py-20 px-4 flex flex-col justify-center items-center shadow-sm shadow-cyan-500/50"
+            >
+                <img
+                    class="rounded-full w-40 mx-auto mb-5 shadow-2xl shadow-cyan-500/50"
+                    src="./imagens/danilo.png"
+                    alt="Imagem de perfil de Danilo Scorzoni Ré"
+                    width="40"
+                    height="40"
+                />
+                <h1 class="text-2xl">Danilo Scorzoni Ré</h1>
+                <h2 class="text-xl text-slate-400">Data Scientist & Web Developer</h2>
+                <p class="container py-6 font-thin max-w-2xl">
+                    Bem-vindo ao meu portfolio de projetos e site pessoal. <br />
+                    Aqui você irá encontrar algumas informações sobre mim, minha experiência profissional, tecnologias
+                    que domino e alguns dos meus projetos.
+                </p>
+            </section>
+            <section class="container p-12 flex flex-wrap justify-between gap-4">
+                <article class="text-white text-lg p-0 pb-4 md:p-6 max-w-3xl">
+                    <h1 class="text-slate-400 text-2xl mb-2">Cientista de Dados</h1>
+                    <p class="font-thin max-w-2xl">
+                        Sou engenheiro por formação mas atuo há mais de 12 anos na área de Ciência de Dados nos ramos de
+                        tecnologia e serviços financeiros. Passei por empresas como Serasa Experian, Facebook e
+                        Instagram, no Brasil e nos Estados Unidos.
+                    </p>
+                    <p class="font-thin max-w-2xl mt-4">
+                        Atuando em posições estratégicas realizando análises utilizando ferramentas de análise de dados
+                        como R, RStudio, Python e ferramentas de visualização de dados como ggplot2, Tableau dentre
+                        outras.
+                    </p>
+                    <p class="font-thin max-w-2xl mt-4">
+                        Dentre as metodologias estatísticas, utilize: teste A/B, análise de regressão, algoritmos de
+                        segmentação/agrupamento, modelos de classificação como regressão logística, modelos de
+                        inferência causal como propensity score matching, dentre outras.
+                    </p>
+                </article>
+                <aside
+                    class="flex flex-col justify-center items-center md:p-10 md:my-8 md:bg-cyan-900 md:rounded-2xl md:gap-8 md:shadow-sm md:shadow-cyan-500/50"
+                >
+                    <div class="flex gap-2 md:gap-8 justify-center items-center">
+                        <img src="./imagens/stats-icon.png" alt="Ícone de gráfico" width="100" height="100" />
+                        <img src="./imagens/r-logo.png" alt="Ícone do R" width="100" height="100" />
+                        <img src="./imagens/rstudio-logo.png" alt="Ícone do RStudio" width="100" height="100" />
+                    </div>
+                    <div class="flex gap-2 md:gap-8 justify-center items-center md:py-4">
+                        <img src="./imagens/tidyverse-logo.png" alt="Ícone do tidyverse" width="100" height="100" />
+                        <img src="./imagens/report-icon.png" alt="Ícone de relatório" width="100" height="100" />
+                        <img src="./imagens/ggplot2-logo.png" alt="Ícone do ggplot2" width="100" height="100" />
+                    </div>
+                </aside>
+            </section>
+            <section
+                class="w-full text-white text-center bg-cyan-900 py-20 px-4 flex flex-col justify-center items-center shadow-sm shadow-cyan-500/50"
+            >
+                <div class="container">
+                    <h1 class="text-2xl mb-2">Portfolio de Projetos como Web Developer</h1>
+                    <p class="mb-6">Aqui tem uma breve demonstração de projetos. Para mais, consulte meu Github.</p>
+                    <div class="container flex justify-around items-center gap-4 p-4 flex-wrap">
+                        <article
+                            class="bg-cyan-950 p-6 rounded-xl flex flex-col gap-4 items-center justify-between min-h-[420px] max-w-sm shadow-sm shadow-cyan-500/50"
+                        >
+                            <h2 class="font-bold">Social Media Links</h2>
+                            <img
+                                src="./imagens/project-social-media-links.png"
+                                width="250"
+                                height="150"
+                                alt="Screenshot do projeto de social media links"
+                                class="rounded-xl shadow-sm shadow-cyan-500/50"
+                            />
+                            <p>
+                                Neste rápido exercício de CSS, desenvolvi uma página para agregar os meus links de
+                                social media. Inspirado no exercício proposto no site Frontend Mentor.
+                            </p>
+                            <div class="flex gap-2 items-center">
+                                <a
+                                    class="p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                                    href="https://github.com/dscorzoni/project-social-media-links"
+                                    >Github</a
+                                >
+                                <a
+                                    class="p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                                    href="https://dscorzoni.github.io/project-social-media-links"
+                                    >Demo</a
+                                >
+                            </div>
+                        </article>
+                        <article
+                            class="bg-cyan-950 p-6 rounded-xl flex flex-col gap-4 items-center justify-between min-h-[420px] max-w-sm shadow-sm shadow-cyan-500/50"
+                        >
+                            <h2 class="font-bold">Tip Splitter</h2>
+                            <img
+                                src="./imagens/project-splitter.png"
+                                width="250"
+                                height="150"
+                                alt="Screenshot do projeto de tip splitter"
+                                class="rounded-xl shadow-sm shadow-cyan-500/50"
+                            />
+                            <p>
+                                Neste app apresento o design a funcionalidade de uma calculadora de gorjeta que também
+                                faz a divisão da conta para os integrantes do grupo. Desafio do Frontend Mentor.
+                            </p>
+                            <div class="flex gap-2 items-center">
+                                <a
+                                    class="p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                                    href="https://github.com/dscorzoni/project-splitter"
+                                    >Github</a
+                                >
+                                <a
+                                    class="p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                                    href="https://dscorzoni.github.io/project-splitter"
+                                    >Demo</a
+                                >
+                            </div>
+                        </article>
+                        <article
+                            class="bg-cyan-950 p-6 rounded-xl flex flex-col gap-4 items-center justify-between min-h-[420px] max-w-sm shadow-sm shadow-cyan-500/50"
+                        >
+                            <h2 class="font-bold">Cartão de Crédito</h2>
+                            <img
+                                src="./imagens/project-credit-card.png"
+                                width="250"
+                                height="150"
+                                alt="Screenshot do projeto de formulário de cartão de crédito"
+                                class="rounded-xl shadow-sm shadow-cyan-500/50"
+                            />
+                            <p>
+                                Neste exercício de formulário para cartão de crédito, implemento funções de java script
+                                para validação de campos. Há também um desafio de CSS para sobrepor elementos e garantir
+                                responsividade. Também é um desafio do Frontend Mentor.
+                            </p>
+                            <div class="flex gap-2 items-center">
+                                <a
+                                    class="p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                                    href="https://github.com/dscorzoni/project-interactive-card"
+                                    >Github</a
+                                >
+                                <a
+                                    class="p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                                    href="https://dscorzoni.github.io/project-interactive-card"
+                                    >Demo</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="container p-12 flex flex-col justify-center items-center gap-4 text-center text-white">
+                <h1 class="text-2xl">Formulário de Contato</h1>
+                <p class="text-slate-400 text-lg">Deixe suas informações abaixo e entratei em contato.</p>
+                <p><strong>Atenção:</strong> o formulário não funciona pois esse é apenas um exercício de Tailwind.</p>
+                <form class="flex flex-col justify-center">
+                    <input class="my-1 p-2 rounded-sm text-black" type="text" id="nome" placeholder="Seu nome" />
+                    <input class="my-1 p-2 rounded-sm text-black" type="email" id="email" placeholder="Seu e-mail" />
+                    <textarea
+                        name="mensagem"
+                        id="mensagem"
+                        cols="40"
+                        rows="5"
+                        placeholder="Digite sua mensagem"
+                        class="my-1 p-2 rounded-sm text-black"
+                    ></textarea>
+                    <button
+                        class="my-4 p-2 bg-cyan-700 hover:bg-cyan-600 text-sm rounded-md shadow-md shadow-cyan-300/50"
+                        onclick="alert('O e-mail não foi enviado pois esse é um exercício de Tailwind.')"
+                    >
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer class="mx-auto py-12 px-4 bg-cyan-900">
+            <h1 class="text-white text-center">Todos os direitos reservados &copy <br />Danilo Scorzoni Ré</h1>
+        </footer>
+    </body>
+</html>
